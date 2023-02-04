@@ -21,7 +21,6 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'message',
     ];
 
     /**
@@ -47,5 +46,5 @@ class User extends Authenticatable
     {
         return $this->hasMany(Chirp::class);
     }
-    
+
 }
